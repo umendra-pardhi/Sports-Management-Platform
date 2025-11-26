@@ -33,10 +33,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="border-b border-border bg-gradient-to-r from-primary/10 to-secondary/10 py-12">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-foreground mb-2">Company Sports Tournament</h1>
-          <p className="text-muted-foreground text-lg">Live scores, team management, and real-time leaderboards</p>
+      <section className="border-b border-border bg-gradient-to-r from-primary/10 to-secondary/10  bg-[url('/indore-aa-team.jpg')] bg-cover bg-center ">
+      <div className="bg-black/50 w-full h-full py-38" >
+        <div className="container mx-auto px-4 text-center ">
+          <h1 className="text-4xl font-bold text-foreground text-white text-shadow-2xs text-shadow-amber-900  mb-2">GameoThon 1.0</h1>
+          <p className=" text-lg text-white">Live scores, team management, and real-time leaderboards</p>
+        </div>
         </div>
       </section>
 
