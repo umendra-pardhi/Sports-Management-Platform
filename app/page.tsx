@@ -89,6 +89,11 @@ export default function Home() {
           </TabsContent>
         </Tabs>
       </div>
+
+<div className="p-3 text-center ">
+<p>Developed by <a href="https://umend.in" className="text-blue-500 hover:text-blue-700" target="_blank" >Umendra Pardhi</a> | Guided by: Mahesh Bajait</p>
+</div>
+
     </div>
   )
 }
